@@ -25,7 +25,7 @@ node_modules
 bower_components
 fishd.*
 
-~/.config/*
+*
 
 # Vim
 Session.vim
