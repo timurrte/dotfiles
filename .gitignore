@@ -26,6 +26,9 @@ qimgv/
 libfm/
 QtProject.conf
 mimeapps.list
+menus/
+dconf/
+qBittorrent/
 
 # Vim
 Session.vim
