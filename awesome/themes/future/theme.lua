@@ -8,21 +8,21 @@ local themes_path = os.getenv("HOME") .. "/.config/awesome/themes/future/"
 local theme = {}
 theme.font          = "Fira Code Nerd 10.5"
 
-theme.bg_focus      = "#e2eeea"
-theme.bg_normal     = "#6a005c"
-theme.bg_urgent     = "#fce94f"
-theme.bg_minimize   = "#0067ce"
+theme.bg_focus      = "#967745"
+theme.bg_normal     = "#574D3E"
+theme.bg_urgent     = "#D6952D"
+theme.bg_minimize   = "#466581"
 theme.bg_systray    = theme.bg_normal
 
-theme.fg_normal     = "#2e3436"
-theme.fg_focus      = "#2e3436"
-theme.fg_urgent     = "#2e3436"
-theme.fg_minimize   = "#2e3436"
+theme.fg_normal     = "#fff"
+theme.fg_focus      = "#fff"
+theme.fg_urgent     = "#fff"
+theme.fg_minimize   = "#fff"
 
 theme.useless_gap   = dpi(8)
 theme.border_width  = dpi(2)
-theme.border_normal = "#001eff"
-theme.border_focus  = "#bd00ff"
+theme.border_normal = "#466581"
+theme.border_focus  = "#574D3E"
 theme.border_marked = "#eeeeec"
 
 -- IMAGES
@@ -43,7 +43,8 @@ theme.layout_cornerne        = themes_path .. "icons/cornerne.png"
 theme.layout_cornersw        = themes_path .. "icons/cornersw.png"
 theme.layout_cornerse        = themes_path .. "icons/cornerse.png"
 
-theme.awesome_icon           = themes_path .. "awesome-icon.png"
+theme.awesome_icon           = themes_path .. "icons/steampunk/pipes.png"
+theme.awesome_submenu_icon = themes_path .. "icons/steampunk/old-lantern.png"
 
 -- from default for now...
 theme.menu_submenu_icon     = themes_path .. "icons/submenu.png"
@@ -59,10 +60,10 @@ theme.taglist_squares_unsel = theme_assets.taglist_squares_unsel(
 
 -- misc
 theme.wallpaper             = themes_path .. "wallpaper.jpg"
-theme.taglist_squares       = "true"
+theme.taglist_squares       = "false" 
 theme.titlebar_close_button = "true"
-theme.menu_height = dpi(15)
-theme.menu_width  = dpi(100)
+theme.menu_height = dpi(20)
+theme.menu_width  = dpi(120)
 
 -- define the image to load
 theme.titlebar_close_button_normal = themes_path .. "default/titlebar/close_normal.png"
