@@ -43,7 +43,8 @@ theme.layout_cornerne        = themes_path .. "icons/cornerne.png"
 theme.layout_cornersw        = themes_path .. "icons/cornersw.png"
 theme.layout_cornerse        = themes_path .. "icons/cornerse.png"
 
-theme.awesome_icon           = themes_path .. "icons/steampunk/pipes.png"
+theme.awesome_icon = themes_path .. "icons/ship-wheel.png"
+-- theme.awesome_icon           = themes_path .. "icons/steampunk/pipes.png"
 theme.awesome_submenu_icon = themes_path .. "icons/steampunk/old-lantern.png"
 
 -- from default for now...

@@ -29,6 +29,7 @@ mimeapps.list
 menus/
 dconf/
 qBittorrent/
+awesome/collision
 
 # Vim
 Session.vim
