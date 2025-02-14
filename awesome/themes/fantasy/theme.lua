@@ -8,10 +8,10 @@ local themes_path = os.getenv("HOME") .. "/.config/awesome/themes/future/"
 local theme = {}
 theme.font          = "Fira Code Nerd 10.5"
 
-main_color = "#000B58"
-secondary = "#003161"
-color_1 = "#006A67"
-color_2 = "#FFF4B7"
+main_color = "#6F4E37"
+secondary = "#ECB176"
+color_1 = "#FED8B1"
+color_2 = "#FFF"
 
 theme.bg_focus      = secondary  -- Secondary color
 theme.bg_normal     = main_color -- Main color

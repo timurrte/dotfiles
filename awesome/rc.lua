@@ -47,7 +47,8 @@ end
 
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
-beautiful.init("~/.config/awesome/themes/future/theme.lua")
+theme = "fantasy"
+beautiful.init("~/.config/awesome/themes/" .. theme .. "/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
 terminal = "kitty"
@@ -576,3 +577,4 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 awful.spawn.with_shell("picom")
 awful.spawn.with_shell("nitrogen --restore")
 -- awful.spawn.with_shell("emacs --daemon")
+awful.spawn.with_shell("mpd --no-daemon")
